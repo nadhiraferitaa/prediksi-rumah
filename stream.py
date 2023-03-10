@@ -8,8 +8,8 @@ model = pickle.load(open('bestmodel.sav', 'rb'))
 #judul web
 st.title('PREDIKSI HARGA RUMAH DI KOTA YOGYAKARTA')
 
-kcm = ("Kotagede","Wirobrajan","Umbulharjo","Mantrijeron","Tegalrejo","Mergangsan",
-		"Gondomanan","Ngampilan","Pakualaman","Kraton","Gondokusuman","Danurejan","Gedongtengen","Jetis")
+kcm = ("Kotagede","Wirobrajan","Umbulharjo","Tegalrejo","Mergangsan","Mantrijeron","Gondomanan","Kraton",
+        "Gondokusuman","Pakualaman","Ngampilan","Danurejan","Gedongtengen","Jetis")
 
 fn = ("Non Furnished","Semi Furnished","Furnished")
 
