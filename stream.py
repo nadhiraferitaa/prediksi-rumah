@@ -21,6 +21,11 @@ tab1, tab2, tab3= st.tabs(["Home","Predict","Contact"])
 with tab1:
 
 	st.write('<div style="text-align: justify;"> Website ini dibuat untuk kamu para calon pembeli atau penjual rumah di Kota Yogyakarta. Masukkan beberapa kriteria yang kamu inginkan yaitu lokasi kecamatan, luas tanah (m2), luas bangunan (m2), jumlah kamar tidur, jumlah kamar mandi, jumlah lantai, kelengkapan fasilitas rumah, dan jumlah carport. Semoga website ini dapat membantu Anda dalam menentukan budget yang sesuai.</div>', unsafe_allow_html=True)
+	st.write('<div style="text-align: justify;">  </div>', unsafe_allow_html=True)
+	st.write('<div style="text-align: justify;"> Keterangan Fasiltas: </div>', unsafe_allow_html=True)
+	st.write('<div style="text-align: justify;"> 1. Non Furnished: Rumah dalam keadaan kosong, tidak terdapat furnitur atau perabotan </div>', unsafe_allow_html=True)
+	st.write('<div style="text-align: justify;"> 2. Semi Furnished: Rumah sudah terdapat beberapa furnitur atau perabotan tetapi tidak lengkap</div>', unsafe_allow_html=True)
+	st.write('<div style="text-align: justify;"> 3. Furnished: Rumah sudah terdapat furnitur atau perabotan yang lengkap </div>', unsafe_allow_html=True)
 	image = Image.open('angga.jpg')
 	st.image(image, use_column_width=True)
 	st.write('Mulai prediksi harga rumah dengan klik pada menu **:red["Predict"]** di atas! 	:arrow_up:')
